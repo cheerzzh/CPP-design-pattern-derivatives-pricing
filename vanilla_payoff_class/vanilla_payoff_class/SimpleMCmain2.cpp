@@ -20,22 +20,22 @@ int main()
     unsigned long NumberOfPath;
     
     //read in parameters
-    cout << "\nEnter expiry\n";
+    cout << "\nEnter expiry: \n";
     cin >> Expiry;
     
-    cout << "\nEnter Strike\n";
+    cout << "\nEnter Strike: \n";
     cin >> Strike;
     
-    cout << "\nEnter spot\n";
+    cout << "\nEnter spot: \n";
     cin >> Spot;
     
-    cout << "\nEnter vol\n";
+    cout << "\nEnter vol: \n";
     cin >> Vol;
     
-    cout << "\nEnter r\n";
+    cout << "\nEnter r: \n";
     cin >> r;
     
-    cout << "\n Number of paths\n";
+    cout << "\nNumber of paths: \n";
     cin >> NumberOfPath;
     
     PayOff callPayOff(Strike, PayOff::call);//PayOff object
@@ -54,7 +54,13 @@ int main()
                                           Vol,
                                           r,
                                         NumberOfPath);
-    cout <<"the price are "<< resultCall<<"for the call and "<<resultput<<" for the put\n";
+    cout <<"\nthe price are "<< resultCall<<" for the call and \n"<<resultput<<" for the put\n";
+    
+    double call_parity = resultCall + Strike*exp(-r*Expiry);
+    double put_parity = resultput + Spot;
+    
+    cout << "\ntest Put-call Parity:\n";
+    cout << "Call + K*B(r,t) == "<<call_parity <<"\n"<<"Put + S(t) == "<<put_parity<<"\n";
     
     double tmp;
     cin >> tmp;

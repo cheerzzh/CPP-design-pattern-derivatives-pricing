@@ -30,12 +30,17 @@ VanillaOption::VanillaOption(const VanillaOption& original) // a copy constructo
     ThePayOffPtr = original.ThePayOffPtr -> clone(); // make a copy of payoff instance again
 }
 
+
+/* 
+ overloading the asignment operator "=",
+ 
+ */
 VanillaOption& VanillaOption::operator = (const VanillaOption& original) // copy the instance
 {
-    if(this != &original)
+    if(this != &original) // check against self-assignnment
     {
         Expiry = original.Expiry;
-        delete ThePayOffPtr; // release the memory
+        delete ThePayOffPtr; // release the memor, otherwisw memory leaks
         ThePayOffPtr = original.ThePayOffPtr -> clone();
     }
     return *this; // return a vanilla option class pointer

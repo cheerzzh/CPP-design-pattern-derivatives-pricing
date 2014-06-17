@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE34C589194F3C1400082766 /* PayOffBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE34C587194F3C1400082766 /* PayOffBridge.cpp */; };
 		CEA2EC9E1949EB9500151603 /* VanillaMain2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EC9D1949EB9500151603 /* VanillaMain2.cpp */; };
 		CEA2ECA01949EB9500151603 /* __3_virtual_constructor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEA2EC9F1949EB9500151603 /* __3_virtual_constructor.1 */; };
 		CEA2ECA81949EBE700151603 /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA2ECA61949EBE700151603 /* PayOff3.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE34C587194F3C1400082766 /* PayOffBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffBridge.cpp; sourceTree = "<group>"; };
+		CE34C588194F3C1400082766 /* PayOffBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffBridge.h; sourceTree = "<group>"; };
 		CEA2EC9A1949EB9500151603 /* 4.3_virtual_constructor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4.3_virtual_constructor; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA2EC9D1949EB9500151603 /* VanillaMain2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VanillaMain2.cpp; sourceTree = "<group>"; };
 		CEA2EC9F1949EB9500151603 /* __3_virtual_constructor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __3_virtual_constructor.1; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				CEA2ECB0194A9E3F00151603 /* SimpleMC4.h */,
 				CEA2ECB2194A9EBE00151603 /* Random1.cpp */,
 				CEA2ECB3194A9EBE00151603 /* Random1.h */,
+				CE34C587194F3C1400082766 /* PayOffBridge.cpp */,
+				CE34C588194F3C1400082766 /* PayOffBridge.h */,
 				CEA2ECAC194A982300151603 /* Vanilla2.cpp */,
 				CEA2ECAD194A982300151603 /* Vanilla2.h */,
 				CEA2ECAA194A92B500151603 /* DoubleDigital2.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE34C589194F3C1400082766 /* PayOffBridge.cpp in Sources */,
 				CEA2ECB4194A9EBE00151603 /* Random1.cpp in Sources */,
 				CEA2ECB1194A9E3F00151603 /* SimpleMC4.cpp in Sources */,
 				CEA2ECA81949EBE700151603 /* PayOff3.cpp in Sources */,
@@ -257,6 +263,7 @@
 				CEA2ECA51949EB9500151603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

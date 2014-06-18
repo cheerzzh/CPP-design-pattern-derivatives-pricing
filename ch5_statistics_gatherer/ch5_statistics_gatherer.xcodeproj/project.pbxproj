@@ -16,6 +16,8 @@
 		CE34C5DD1951314200082766 /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE34C5DB1951314200082766 /* PayOff3.cpp */; };
 		CE34C5E01951317800082766 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE34C5DE1951317800082766 /* Parameters.cpp */; };
 		CE34C5E31951341000082766 /* Random1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE34C5E11951341000082766 /* Random1.cpp */; };
+		CE80397B1951BFF3003F898D /* Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE8039791951BFF3003F898D /* Wrapper.cpp */; };
+		CE80397E1951C998003F898D /* ConvergenceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE80397C1951C998003F898D /* ConvergenceTable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,10 @@
 		CE34C5DF1951317800082766 /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
 		CE34C5E11951341000082766 /* Random1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random1.cpp; sourceTree = "<group>"; };
 		CE34C5E21951341000082766 /* Random1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random1.h; sourceTree = "<group>"; };
+		CE8039791951BFF3003F898D /* Wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wrapper.cpp; sourceTree = "<group>"; };
+		CE80397A1951BFF3003F898D /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		CE80397C1951C998003F898D /* ConvergenceTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvergenceTable.cpp; sourceTree = "<group>"; };
+		CE80397D1951C998003F898D /* ConvergenceTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvergenceTable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,10 @@
 				CE34C5DF1951317800082766 /* Parameters.h */,
 				CE34C5E11951341000082766 /* Random1.cpp */,
 				CE34C5E21951341000082766 /* Random1.h */,
+				CE8039791951BFF3003F898D /* Wrapper.cpp */,
+				CE80397A1951BFF3003F898D /* Wrapper.h */,
+				CE80397C1951C998003F898D /* ConvergenceTable.cpp */,
+				CE80397D1951C998003F898D /* ConvergenceTable.h */,
 				CE34C5C51951271C00082766 /* ch5_statistics_gatherer.1 */,
 			);
 			path = ch5_statistics_gatherer;
@@ -160,6 +170,8 @@
 				CE34C5E01951317800082766 /* Parameters.cpp in Sources */,
 				CE34C5E31951341000082766 /* Random1.cpp in Sources */,
 				CE34C5D7195130F400082766 /* PayOffBridge.cpp in Sources */,
+				CE80397E1951C998003F898D /* ConvergenceTable.cpp in Sources */,
+				CE80397B1951BFF3003F898D /* Wrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +281,7 @@
 				CE34C5CB1951271C00082766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

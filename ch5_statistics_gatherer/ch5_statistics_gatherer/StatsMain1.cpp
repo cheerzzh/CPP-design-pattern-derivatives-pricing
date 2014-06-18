@@ -21,6 +21,7 @@
 #include <iostream>
 #include "Vanilla3.h"
 #include "MCStatistics.h"
+#include "ConvergenceTable.h"
 
 using namespace std;
 
@@ -56,12 +57,13 @@ int main()
     ParametersConstant VolParam(Vol);
     ParametersConstant rParam(r);
     StatisticsMean gatherer;
+    ConvergenceTable gathererTwo(gatherer);
     
-    SimpleMonteCarlo5(theOption, Spot, VolParam, rParam, NumberOfPaths, gatherer);
+    SimpleMonteCarlo5(theOption, Spot, VolParam, rParam, NumberOfPaths, gathererTwo);
     
-    vector<vector<double> > results = gatherer.GetResultsSoFar();
+    vector<vector<double> > results = gathererTwo.GetResultsSoFar();
     
-    cout <<"\nFor the call price the results are \n";
+    cout <<"\nFor the call price the results are \n\n";
     
     // loop over the vectors of vectors to display results
     for (unsigned long i=0; i < results.size(); i++)

@@ -14,14 +14,13 @@
 class RandomBase
 {
 public:
-    RandomBase(unsigned long Dimensionality);
+    RandomBase(unsigned long Dimensionality_);
     
-    inline unsigned long GetDimensionality() const;
-    
-    virtual RandomBase* clone() const;
+    inline unsigned long GetDimensionality() const; // simple method, no need to be virtual
+    virtual RandomBase* clone() const=0;
     
     // pure virtual methods
-    virtual void GetUniform(MJArray& variates)=0;
+    virtual void GetUniforms(MJArray& variates)=0;// reference to a array, do not to waste time in copying the array, pass the return value into pre-generated array
     virtual void Skip(unsigned long numberOfPaths) = 0;
     virtual void SetSeed(unsigned long Seed) = 0;
     virtual void Reset() = 0;

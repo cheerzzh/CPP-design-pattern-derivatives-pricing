@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEFB42EA19528CBE0013D41D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB42E919528CBE0013D41D /* main.cpp */; };
+		CEFB42EA19528CBE0013D41D /* RandomMain3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB42E919528CBE0013D41D /* RandomMain3.cpp */; };
 		CEFB42EC19528CBE0013D41D /* ch6_random_number_class.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEFB42EB19528CBE0013D41D /* ch6_random_number_class.1 */; };
 		CEFB42F419528CD40013D41D /* Random2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB42F219528CD40013D41D /* Random2.cpp */; };
 		CEFB42F7195290930013D41D /* Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB42F5195290930013D41D /* Arrays.cpp */; };
+		CEFB42FA1952CBE20013D41D /* Normals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB42F81952CBE20013D41D /* Normals.cpp */; };
+		CEFB42FD1952D0170013D41D /* ParkMiller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB42FB1952D0170013D41D /* ParkMiller.cpp */; };
+		CEFB43001952E4860013D41D /* AntiThetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB42FE1952E4860013D41D /* AntiThetic.cpp */; };
+		CEFB430319530F160013D41D /* Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB430119530F160013D41D /* Wrapper.cpp */; };
+		CEFB4306195319110013D41D /* Vanilla3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4304195319110013D41D /* Vanilla3.cpp */; };
+		CEFB4309195319630013D41D /* PayOffBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4307195319630013D41D /* PayOffBridge.cpp */; };
+		CEFB430C195319A70013D41D /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB430A195319A70013D41D /* PayOff3.cpp */; };
+		CEFB430F195319FB0013D41D /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB430D195319FB0013D41D /* Parameters.cpp */; };
+		CEFB431219531A3D0013D41D /* MCStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB431019531A3D0013D41D /* MCStatistics.cpp */; };
+		CEFB431519531ACA0013D41D /* SimpleMC8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB431319531ACA0013D41D /* SimpleMC8.cpp */; };
+		CEFB431819531F5B0013D41D /* ConvergenceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB431619531F5B0013D41D /* ConvergenceTable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +39,34 @@
 
 /* Begin PBXFileReference section */
 		CEFB42E619528CBE0013D41D /* ch6_random_number_class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch6_random_number_class; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFB42E919528CBE0013D41D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEFB42E919528CBE0013D41D /* RandomMain3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomMain3.cpp; sourceTree = "<group>"; };
 		CEFB42EB19528CBE0013D41D /* ch6_random_number_class.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ch6_random_number_class.1; sourceTree = "<group>"; };
 		CEFB42F219528CD40013D41D /* Random2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random2.cpp; sourceTree = "<group>"; };
 		CEFB42F319528CD40013D41D /* Random2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random2.h; sourceTree = "<group>"; };
 		CEFB42F5195290930013D41D /* Arrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays.cpp; sourceTree = "<group>"; };
 		CEFB42F6195290930013D41D /* Arrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrays.h; sourceTree = "<group>"; };
+		CEFB42F81952CBE20013D41D /* Normals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Normals.cpp; sourceTree = "<group>"; };
+		CEFB42F91952CBE20013D41D /* Normals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normals.h; sourceTree = "<group>"; };
+		CEFB42FB1952D0170013D41D /* ParkMiller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkMiller.cpp; sourceTree = "<group>"; };
+		CEFB42FC1952D0170013D41D /* ParkMiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkMiller.h; sourceTree = "<group>"; };
+		CEFB42FE1952E4860013D41D /* AntiThetic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AntiThetic.cpp; sourceTree = "<group>"; };
+		CEFB42FF1952E4860013D41D /* AntiThetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntiThetic.h; sourceTree = "<group>"; };
+		CEFB430119530F160013D41D /* Wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wrapper.cpp; sourceTree = "<group>"; };
+		CEFB430219530F160013D41D /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		CEFB4304195319110013D41D /* Vanilla3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vanilla3.cpp; sourceTree = "<group>"; };
+		CEFB4305195319110013D41D /* Vanilla3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vanilla3.h; sourceTree = "<group>"; };
+		CEFB4307195319630013D41D /* PayOffBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffBridge.cpp; sourceTree = "<group>"; };
+		CEFB4308195319630013D41D /* PayOffBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffBridge.h; sourceTree = "<group>"; };
+		CEFB430A195319A70013D41D /* PayOff3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOff3.cpp; sourceTree = "<group>"; };
+		CEFB430B195319A70013D41D /* PayOff3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOff3.h; sourceTree = "<group>"; };
+		CEFB430D195319FB0013D41D /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
+		CEFB430E195319FB0013D41D /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		CEFB431019531A3D0013D41D /* MCStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCStatistics.cpp; sourceTree = "<group>"; };
+		CEFB431119531A3D0013D41D /* MCStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStatistics.h; sourceTree = "<group>"; };
+		CEFB431319531ACA0013D41D /* SimpleMC8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMC8.cpp; sourceTree = "<group>"; };
+		CEFB431419531ACA0013D41D /* SimpleMC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMC8.h; sourceTree = "<group>"; };
+		CEFB431619531F5B0013D41D /* ConvergenceTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvergenceTable.cpp; sourceTree = "<group>"; };
+		CEFB431719531F5B0013D41D /* ConvergenceTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvergenceTable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +99,33 @@
 		CEFB42E819528CBE0013D41D /* ch6_random_number_class */ = {
 			isa = PBXGroup;
 			children = (
-				CEFB42E919528CBE0013D41D /* main.cpp */,
+				CEFB42E919528CBE0013D41D /* RandomMain3.cpp */,
 				CEFB42F219528CD40013D41D /* Random2.cpp */,
 				CEFB42F319528CD40013D41D /* Random2.h */,
+				CEFB42FE1952E4860013D41D /* AntiThetic.cpp */,
+				CEFB42FF1952E4860013D41D /* AntiThetic.h */,
 				CEFB42F5195290930013D41D /* Arrays.cpp */,
 				CEFB42F6195290930013D41D /* Arrays.h */,
+				CEFB42F81952CBE20013D41D /* Normals.cpp */,
+				CEFB42F91952CBE20013D41D /* Normals.h */,
+				CEFB42FB1952D0170013D41D /* ParkMiller.cpp */,
+				CEFB42FC1952D0170013D41D /* ParkMiller.h */,
+				CEFB430119530F160013D41D /* Wrapper.cpp */,
+				CEFB430219530F160013D41D /* Wrapper.h */,
+				CEFB4304195319110013D41D /* Vanilla3.cpp */,
+				CEFB4305195319110013D41D /* Vanilla3.h */,
+				CEFB4307195319630013D41D /* PayOffBridge.cpp */,
+				CEFB4308195319630013D41D /* PayOffBridge.h */,
+				CEFB430A195319A70013D41D /* PayOff3.cpp */,
+				CEFB430B195319A70013D41D /* PayOff3.h */,
+				CEFB430D195319FB0013D41D /* Parameters.cpp */,
+				CEFB430E195319FB0013D41D /* Parameters.h */,
+				CEFB431019531A3D0013D41D /* MCStatistics.cpp */,
+				CEFB431119531A3D0013D41D /* MCStatistics.h */,
+				CEFB431319531ACA0013D41D /* SimpleMC8.cpp */,
+				CEFB431419531ACA0013D41D /* SimpleMC8.h */,
+				CEFB431619531F5B0013D41D /* ConvergenceTable.cpp */,
+				CEFB431719531F5B0013D41D /* ConvergenceTable.h */,
 				CEFB42EB19528CBE0013D41D /* ch6_random_number_class.1 */,
 			);
 			path = ch6_random_number_class;
@@ -127,9 +182,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFB42EA19528CBE0013D41D /* main.cpp in Sources */,
+				CEFB42FA1952CBE20013D41D /* Normals.cpp in Sources */,
+				CEFB430319530F160013D41D /* Wrapper.cpp in Sources */,
+				CEFB430C195319A70013D41D /* PayOff3.cpp in Sources */,
+				CEFB430F195319FB0013D41D /* Parameters.cpp in Sources */,
+				CEFB42EA19528CBE0013D41D /* RandomMain3.cpp in Sources */,
 				CEFB42F7195290930013D41D /* Arrays.cpp in Sources */,
+				CEFB42FD1952D0170013D41D /* ParkMiller.cpp in Sources */,
+				CEFB43001952E4860013D41D /* AntiThetic.cpp in Sources */,
+				CEFB431219531A3D0013D41D /* MCStatistics.cpp in Sources */,
+				CEFB431519531ACA0013D41D /* SimpleMC8.cpp in Sources */,
 				CEFB42F419528CD40013D41D /* Random2.cpp in Sources */,
+				CEFB4306195319110013D41D /* Vanilla3.cpp in Sources */,
+				CEFB431819531F5B0013D41D /* ConvergenceTable.cpp in Sources */,
+				CEFB4309195319630013D41D /* PayOffBridge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

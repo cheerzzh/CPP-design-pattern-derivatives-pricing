@@ -50,3 +50,8 @@ base class sets up a structure with methods that control everythings, while the 
 ###PathDependent.h
 CashFlow class, PathDependent class
 
+
+##7.5 A BS path generation engine
+
+allow variable IR and dividend rate, variable but deterministic volatilty
+ in **ExoticBSEngine.h** and **ExoticBSEngine.cpp.**

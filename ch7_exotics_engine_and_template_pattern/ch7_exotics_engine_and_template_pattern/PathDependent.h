@@ -33,7 +33,7 @@ public:
     const MJArray& GetLookAtTimes() const;
     
     virtual unsigned long MaxNumberOfCashFlows() const=0;
-    virtual MJArray PossibleCashFlows() const=0;
+    virtual MJArray PossibleCashFlowTimes() const=0;
     virtual unsigned long CashFlows(const MJArray& SpotValues, std::vector<CashFlow>& GeneratedFlows) const=0;
     virtual PathDependent* clone() const=0; // virtual copy construction
     virtual ~PathDependent(){} // avoid memory leaking from wrongly destroy base object rather than the inherited one

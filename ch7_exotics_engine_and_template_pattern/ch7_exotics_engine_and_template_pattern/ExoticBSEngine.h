@@ -9,6 +9,9 @@
 #ifndef __ch7_exotics_engine_and_template_pattern__ExoticBSEngine__
 #define __ch7_exotics_engine_and_template_pattern__ExoticBSEngine__
 
-#include <iostream>
+#include "ExoticBSEngine.h"
+#include "Random2.h"
+
+
 
 #endif /* defined(__ch7_exotics_engine_and_template_pattern__ExoticBSEngine__) */

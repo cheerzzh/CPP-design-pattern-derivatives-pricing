@@ -14,6 +14,10 @@
 		CEFB433919555E670013D41D /* Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB433719555E670013D41D /* Wrapper.cpp */; };
 		CEFB433F195560080013D41D /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB433D195560080013D41D /* Parameters.cpp */; };
 		CEFB4342195560420013D41D /* MCStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4340195560420013D41D /* MCStatistics.cpp */; };
+		CEFB4345195561090013D41D /* ExoticEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4343195561090013D41D /* ExoticEngine.cpp */; };
+		CEFB43481955689E0013D41D /* ExoticBSEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB43461955689E0013D41D /* ExoticBSEngine.cpp */; };
+		CEFB434B195568AB0013D41D /* Random2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4349195568AB0013D41D /* Random2.cpp */; };
+		CEFB434E195568DF0013D41D /* Normals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB434C195568DF0013D41D /* Normals.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +47,14 @@
 		CEFB433E195560080013D41D /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
 		CEFB4340195560420013D41D /* MCStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCStatistics.cpp; sourceTree = "<group>"; };
 		CEFB4341195560420013D41D /* MCStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStatistics.h; sourceTree = "<group>"; };
+		CEFB4343195561090013D41D /* ExoticEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExoticEngine.cpp; sourceTree = "<group>"; };
+		CEFB4344195561090013D41D /* ExoticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoticEngine.h; sourceTree = "<group>"; };
+		CEFB43461955689E0013D41D /* ExoticBSEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExoticBSEngine.cpp; sourceTree = "<group>"; };
+		CEFB43471955689E0013D41D /* ExoticBSEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoticBSEngine.h; sourceTree = "<group>"; };
+		CEFB4349195568AB0013D41D /* Random2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random2.cpp; sourceTree = "<group>"; };
+		CEFB434A195568AB0013D41D /* Random2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random2.h; sourceTree = "<group>"; };
+		CEFB434C195568DF0013D41D /* Normals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Normals.cpp; sourceTree = "<group>"; };
+		CEFB434D195568DF0013D41D /* Normals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normals.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,14 @@
 				CEFB433E195560080013D41D /* Parameters.h */,
 				CEFB4340195560420013D41D /* MCStatistics.cpp */,
 				CEFB4341195560420013D41D /* MCStatistics.h */,
+				CEFB4343195561090013D41D /* ExoticEngine.cpp */,
+				CEFB4344195561090013D41D /* ExoticEngine.h */,
+				CEFB43461955689E0013D41D /* ExoticBSEngine.cpp */,
+				CEFB43471955689E0013D41D /* ExoticBSEngine.h */,
+				CEFB4349195568AB0013D41D /* Random2.cpp */,
+				CEFB434A195568AB0013D41D /* Random2.h */,
+				CEFB434C195568DF0013D41D /* Normals.cpp */,
+				CEFB434D195568DF0013D41D /* Normals.h */,
 				CEFB4327195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 */,
 			);
 			path = ch7_exotics_engine_and_template_pattern;
@@ -142,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFB434B195568AB0013D41D /* Random2.cpp in Sources */,
 				CEFB433F195560080013D41D /* Parameters.cpp in Sources */,
+				CEFB4345195561090013D41D /* ExoticEngine.cpp in Sources */,
+				CEFB43481955689E0013D41D /* ExoticBSEngine.cpp in Sources */,
 				CEFB433619555A810013D41D /* PathDependent.cpp in Sources */,
 				CEFB4342195560420013D41D /* MCStatistics.cpp in Sources */,
+				CEFB434E195568DF0013D41D /* Normals.cpp in Sources */,
 				CEFB433919555E670013D41D /* Wrapper.cpp in Sources */,
 				CEFB4326195559B40013D41D /* main.cpp in Sources */,
 				CEFB4333195559EF0013D41D /* Arrays.cpp in Sources */,

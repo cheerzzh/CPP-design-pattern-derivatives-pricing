@@ -9,6 +9,10 @@
 #ifndef __ch7_exotics_engine_and_template_pattern__Normals__
 #define __ch7_exotics_engine_and_template_pattern__Normals__
 
-#include <iostream>
+double NormalDensity(double x);
+
+double CumulativeNormal(double x);
+
+double InverseCumulativeNormal(double x);
 
 #endif /* defined(__ch7_exotics_engine_and_template_pattern__Normals__) */

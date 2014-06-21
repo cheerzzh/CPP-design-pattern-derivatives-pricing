@@ -11,6 +11,9 @@
 		CEFB4328195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEFB4327195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 */; };
 		CEFB4333195559EF0013D41D /* Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4331195559EF0013D41D /* Arrays.cpp */; };
 		CEFB433619555A810013D41D /* PathDependent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB433419555A810013D41D /* PathDependent.cpp */; };
+		CEFB433919555E670013D41D /* Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB433719555E670013D41D /* Wrapper.cpp */; };
+		CEFB433F195560080013D41D /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB433D195560080013D41D /* Parameters.cpp */; };
+		CEFB4342195560420013D41D /* MCStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4340195560420013D41D /* MCStatistics.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,12 @@
 		CEFB4332195559EF0013D41D /* Arrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrays.h; sourceTree = "<group>"; };
 		CEFB433419555A810013D41D /* PathDependent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathDependent.cpp; sourceTree = "<group>"; };
 		CEFB433519555A810013D41D /* PathDependent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDependent.h; sourceTree = "<group>"; };
+		CEFB433719555E670013D41D /* Wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wrapper.cpp; sourceTree = "<group>"; };
+		CEFB433819555E670013D41D /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		CEFB433D195560080013D41D /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
+		CEFB433E195560080013D41D /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		CEFB4340195560420013D41D /* MCStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCStatistics.cpp; sourceTree = "<group>"; };
+		CEFB4341195560420013D41D /* MCStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStatistics.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,12 @@
 				CEFB4332195559EF0013D41D /* Arrays.h */,
 				CEFB433419555A810013D41D /* PathDependent.cpp */,
 				CEFB433519555A810013D41D /* PathDependent.h */,
+				CEFB433719555E670013D41D /* Wrapper.cpp */,
+				CEFB433819555E670013D41D /* Wrapper.h */,
+				CEFB433D195560080013D41D /* Parameters.cpp */,
+				CEFB433E195560080013D41D /* Parameters.h */,
+				CEFB4340195560420013D41D /* MCStatistics.cpp */,
+				CEFB4341195560420013D41D /* MCStatistics.h */,
 				CEFB4327195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 */,
 			);
 			path = ch7_exotics_engine_and_template_pattern;
@@ -127,7 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFB433F195560080013D41D /* Parameters.cpp in Sources */,
 				CEFB433619555A810013D41D /* PathDependent.cpp in Sources */,
+				CEFB4342195560420013D41D /* MCStatistics.cpp in Sources */,
+				CEFB433919555E670013D41D /* Wrapper.cpp in Sources */,
 				CEFB4326195559B40013D41D /* main.cpp in Sources */,
 				CEFB4333195559EF0013D41D /* Arrays.cpp in Sources */,
 			);

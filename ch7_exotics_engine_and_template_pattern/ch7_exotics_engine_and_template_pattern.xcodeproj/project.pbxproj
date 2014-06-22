@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEFB4326195559B40013D41D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4325195559B40013D41D /* main.cpp */; };
+		CE0D44FF1956A3C000E7761E /* PathDependentAsian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0D44FD1956A3C000E7761E /* PathDependentAsian.cpp */; };
+		CE0D45021956A42800E7761E /* PayOffBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0D45001956A42800E7761E /* PayOffBridge.cpp */; };
+		CE0D45051956A45400E7761E /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0D45031956A45400E7761E /* PayOff3.cpp */; };
+		CE0D45081956A74400E7761E /* AntiThetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0D45061956A74400E7761E /* AntiThetic.cpp */; };
+		CE0D450B1956A78D00E7761E /* ConvergenceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0D45091956A78D00E7761E /* ConvergenceTable.cpp */; };
+		CE0D450E1956A7B700E7761E /* ParkMiller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0D450C1956A7B700E7761E /* ParkMiller.cpp */; };
+		CEFB4326195559B40013D41D /* EquityFXMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4325195559B40013D41D /* EquityFXMain.cpp */; };
 		CEFB4328195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEFB4327195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 */; };
 		CEFB4333195559EF0013D41D /* Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB4331195559EF0013D41D /* Arrays.cpp */; };
 		CEFB433619555A810013D41D /* PathDependent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFB433419555A810013D41D /* PathDependent.cpp */; };
@@ -34,8 +40,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE0D44FD1956A3C000E7761E /* PathDependentAsian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathDependentAsian.cpp; sourceTree = "<group>"; };
+		CE0D44FE1956A3C000E7761E /* PathDependentAsian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDependentAsian.h; sourceTree = "<group>"; };
+		CE0D45001956A42800E7761E /* PayOffBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffBridge.cpp; sourceTree = "<group>"; };
+		CE0D45011956A42800E7761E /* PayOffBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffBridge.h; sourceTree = "<group>"; };
+		CE0D45031956A45400E7761E /* PayOff3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOff3.cpp; sourceTree = "<group>"; };
+		CE0D45041956A45400E7761E /* PayOff3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOff3.h; sourceTree = "<group>"; };
+		CE0D45061956A74400E7761E /* AntiThetic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AntiThetic.cpp; sourceTree = "<group>"; };
+		CE0D45071956A74400E7761E /* AntiThetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntiThetic.h; sourceTree = "<group>"; };
+		CE0D45091956A78D00E7761E /* ConvergenceTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvergenceTable.cpp; sourceTree = "<group>"; };
+		CE0D450A1956A78D00E7761E /* ConvergenceTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvergenceTable.h; sourceTree = "<group>"; };
+		CE0D450C1956A7B700E7761E /* ParkMiller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkMiller.cpp; sourceTree = "<group>"; };
+		CE0D450D1956A7B700E7761E /* ParkMiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkMiller.h; sourceTree = "<group>"; };
 		CEFB4322195559B40013D41D /* ch7_exotics_engine_and_template_pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch7_exotics_engine_and_template_pattern; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFB4325195559B40013D41D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEFB4325195559B40013D41D /* EquityFXMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EquityFXMain.cpp; sourceTree = "<group>"; };
 		CEFB4327195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ch7_exotics_engine_and_template_pattern.1; sourceTree = "<group>"; };
 		CEFB4331195559EF0013D41D /* Arrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays.cpp; sourceTree = "<group>"; };
 		CEFB4332195559EF0013D41D /* Arrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrays.h; sourceTree = "<group>"; };
@@ -87,7 +105,7 @@
 		CEFB4324195559B40013D41D /* ch7_exotics_engine_and_template_pattern */ = {
 			isa = PBXGroup;
 			children = (
-				CEFB4325195559B40013D41D /* main.cpp */,
+				CEFB4325195559B40013D41D /* EquityFXMain.cpp */,
 				CEFB4331195559EF0013D41D /* Arrays.cpp */,
 				CEFB4332195559EF0013D41D /* Arrays.h */,
 				CEFB433419555A810013D41D /* PathDependent.cpp */,
@@ -106,6 +124,18 @@
 				CEFB434A195568AB0013D41D /* Random2.h */,
 				CEFB434C195568DF0013D41D /* Normals.cpp */,
 				CEFB434D195568DF0013D41D /* Normals.h */,
+				CE0D44FD1956A3C000E7761E /* PathDependentAsian.cpp */,
+				CE0D44FE1956A3C000E7761E /* PathDependentAsian.h */,
+				CE0D45001956A42800E7761E /* PayOffBridge.cpp */,
+				CE0D45011956A42800E7761E /* PayOffBridge.h */,
+				CE0D45031956A45400E7761E /* PayOff3.cpp */,
+				CE0D45041956A45400E7761E /* PayOff3.h */,
+				CE0D45061956A74400E7761E /* AntiThetic.cpp */,
+				CE0D45071956A74400E7761E /* AntiThetic.h */,
+				CE0D45091956A78D00E7761E /* ConvergenceTable.cpp */,
+				CE0D450A1956A78D00E7761E /* ConvergenceTable.h */,
+				CE0D450C1956A7B700E7761E /* ParkMiller.cpp */,
+				CE0D450D1956A7B700E7761E /* ParkMiller.h */,
 				CEFB4327195559B40013D41D /* ch7_exotics_engine_and_template_pattern.1 */,
 			);
 			path = ch7_exotics_engine_and_template_pattern;
@@ -164,14 +194,20 @@
 			files = (
 				CEFB434B195568AB0013D41D /* Random2.cpp in Sources */,
 				CEFB433F195560080013D41D /* Parameters.cpp in Sources */,
+				CE0D450E1956A7B700E7761E /* ParkMiller.cpp in Sources */,
 				CEFB4345195561090013D41D /* ExoticEngine.cpp in Sources */,
 				CEFB43481955689E0013D41D /* ExoticBSEngine.cpp in Sources */,
 				CEFB433619555A810013D41D /* PathDependent.cpp in Sources */,
 				CEFB4342195560420013D41D /* MCStatistics.cpp in Sources */,
 				CEFB434E195568DF0013D41D /* Normals.cpp in Sources */,
 				CEFB433919555E670013D41D /* Wrapper.cpp in Sources */,
-				CEFB4326195559B40013D41D /* main.cpp in Sources */,
+				CE0D45081956A74400E7761E /* AntiThetic.cpp in Sources */,
+				CE0D44FF1956A3C000E7761E /* PathDependentAsian.cpp in Sources */,
+				CE0D45051956A45400E7761E /* PayOff3.cpp in Sources */,
+				CEFB4326195559B40013D41D /* EquityFXMain.cpp in Sources */,
 				CEFB4333195559EF0013D41D /* Arrays.cpp in Sources */,
+				CE0D450B1956A78D00E7761E /* ConvergenceTable.cpp in Sources */,
+				CE0D45021956A42800E7761E /* PayOffBridge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +317,7 @@
 				CEFB432D195559B40013D41D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

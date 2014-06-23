@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		CED4FDA1195804CB0049A918 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDA0195804CB0049A918 /* main.cpp */; };
 		CED4FDA3195804CB0049A918 /* ch9_Solvers_templates_and_implied_volatilities.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CED4FDA2195804CB0049A918 /* ch9_Solvers_templates_and_implied_volatilities.1 */; };
+		CED4FDAB195804DE0049A918 /* BSCallClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDA9195804DE0049A918 /* BSCallClass.cpp */; };
+		CED4FDAE195805550049A918 /* BlackScholesFormulas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDAC195805550049A918 /* BlackScholesFormulas.cpp */; };
+		CED4FDB1195805B60049A918 /* Normals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDAF195805B60049A918 /* Normals.cpp */; };
+		CED4FDB4195806D00049A918 /* Bisection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDB2195806D00049A918 /* Bisection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		CED4FD9D195804CB0049A918 /* ch9_Solvers_templates_and_implied_volatilities */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch9_Solvers_templates_and_implied_volatilities; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED4FDA0195804CB0049A918 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CED4FDA2195804CB0049A918 /* ch9_Solvers_templates_and_implied_volatilities.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ch9_Solvers_templates_and_implied_volatilities.1; sourceTree = "<group>"; };
+		CED4FDA9195804DE0049A918 /* BSCallClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSCallClass.cpp; sourceTree = "<group>"; };
+		CED4FDAA195804DE0049A918 /* BSCallClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCallClass.h; sourceTree = "<group>"; };
+		CED4FDAC195805550049A918 /* BlackScholesFormulas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlackScholesFormulas.cpp; sourceTree = "<group>"; };
+		CED4FDAD195805550049A918 /* BlackScholesFormulas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackScholesFormulas.h; sourceTree = "<group>"; };
+		CED4FDAF195805B60049A918 /* Normals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Normals.cpp; sourceTree = "<group>"; };
+		CED4FDB0195805B60049A918 /* Normals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normals.h; sourceTree = "<group>"; };
+		CED4FDB2195806D00049A918 /* Bisection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bisection.cpp; sourceTree = "<group>"; };
+		CED4FDB3195806D00049A918 /* Bisection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bisection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				CED4FDA0195804CB0049A918 /* main.cpp */,
+				CED4FDA9195804DE0049A918 /* BSCallClass.cpp */,
+				CED4FDAA195804DE0049A918 /* BSCallClass.h */,
+				CED4FDAC195805550049A918 /* BlackScholesFormulas.cpp */,
+				CED4FDAD195805550049A918 /* BlackScholesFormulas.h */,
+				CED4FDAF195805B60049A918 /* Normals.cpp */,
+				CED4FDB0195805B60049A918 /* Normals.h */,
+				CED4FDB2195806D00049A918 /* Bisection.cpp */,
+				CED4FDB3195806D00049A918 /* Bisection.h */,
 				CED4FDA2195804CB0049A918 /* ch9_Solvers_templates_and_implied_volatilities.1 */,
 			);
 			path = ch9_Solvers_templates_and_implied_volatilities;
@@ -117,7 +137,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED4FDB4195806D00049A918 /* Bisection.cpp in Sources */,
+				CED4FDB1195805B60049A918 /* Normals.cpp in Sources */,
+				CED4FDAE195805550049A918 /* BlackScholesFormulas.cpp in Sources */,
 				CED4FDA1195804CB0049A918 /* main.cpp in Sources */,
+				CED4FDAB195804DE0049A918 /* BSCallClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

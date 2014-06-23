@@ -9,6 +9,10 @@
 #ifndef __ch9_Solvers_templates_and_implied_volatilities__Normals__
 #define __ch9_Solvers_templates_and_implied_volatilities__Normals__
 
-#include <iostream>
+double NormalDensity(double x);
+
+double CumulativeNormal(double x);
+
+double InverseCumulativeNormal(double x);
 
 #endif /* defined(__ch9_Solvers_templates_and_implied_volatilities__Normals__) */

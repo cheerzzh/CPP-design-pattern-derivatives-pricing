@@ -12,11 +12,21 @@ f(y)  is equivalent to f.operator()(y)
 - object f can be used with function-like syntax
 - f is an object it can contain extra information.
 
-###Templatization
+##Templatization
 The basic idea of templatization is that you can write code that **works for many classes simultaneously** provided they are required to have certain operations defined with the **same syntax**
 
 invoke the function with the template argument BSCall via Bisection<BSCall> then every T will be converted into a BSCall before the function is compiled.
 
 the standard template library always uses the former syntax
 
-
+##Newton–Raphson and function template arguments
+
+Newton–Raphson involves two functions, the value and the derivative
+
+a way of specifying which class member function to call at compile time using templatization
+a pointer to a member function (restricted to methods of a single class)
+
+syntax:
+double (T::\*Derivative)(double) const
+TheObject.\*Derivative(y)
+

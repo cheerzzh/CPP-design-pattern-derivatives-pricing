@@ -30,3 +30,34 @@ syntax:
 double (T::\*Derivative)(double) const
 TheObject.\*Derivative(y)
 
+
+##The pros and cons of templatization
+- in other chapters, we have used **virtual functions** and **polymorphism**
+
+###Pros
+- **Speed**: for templates argument types are decided at the **time of compilation**; for virtual functions the type is not determined until **runtime**
+	- No time is spent on deciding which code to run when the code is actually running
+	- make extra optimizations 
+	
+###Cons
+- **Size**: As the code is compiled for each template argu- ment used separately, we have multiple copies of very similar code
+- **slower compiler times**: much more code would have to be compiled
+- harder to debug
+
+##When choose templatization?
+- the routine should be short, and potentially re-usable in totally unrelated contexts
+- languages exhibit a trade-off between abstraction and efficiency
+
+##Key points
+- **Templates** are an alternative to inheritance for coding without knowing an object’s precise type.
+- Template code can be faster as function calls are determined at compile time.
+- Extensive use of template code can lead to very large executables.
+- Pointers to member functions can be a useful way of obtaining generic behaviour.
+- Implied volatility can only be computed numerically.
+
+
+
+
+
+
+

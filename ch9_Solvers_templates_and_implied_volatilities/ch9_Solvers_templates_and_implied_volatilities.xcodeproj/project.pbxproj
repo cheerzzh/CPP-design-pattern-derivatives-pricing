@@ -13,6 +13,8 @@
 		CED4FDAE195805550049A918 /* BlackScholesFormulas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDAC195805550049A918 /* BlackScholesFormulas.cpp */; };
 		CED4FDB1195805B60049A918 /* Normals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDAF195805B60049A918 /* Normals.cpp */; };
 		CED4FDB4195806D00049A918 /* Bisection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDB2195806D00049A918 /* Bisection.cpp */; };
+		CED4FDCC19580DA90049A918 /* BSCallTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDCA19580DA90049A918 /* BSCallTwo.cpp */; };
+		CED4FDCF19580DC30049A918 /* NewtonRaphso.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDCD19580DC30049A918 /* NewtonRaphso.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,10 @@
 		CED4FDB0195805B60049A918 /* Normals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normals.h; sourceTree = "<group>"; };
 		CED4FDB2195806D00049A918 /* Bisection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bisection.cpp; sourceTree = "<group>"; };
 		CED4FDB3195806D00049A918 /* Bisection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bisection.h; sourceTree = "<group>"; };
+		CED4FDCA19580DA90049A918 /* BSCallTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSCallTwo.cpp; sourceTree = "<group>"; };
+		CED4FDCB19580DA90049A918 /* BSCallTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCallTwo.h; sourceTree = "<group>"; };
+		CED4FDCD19580DC30049A918 /* NewtonRaphso.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewtonRaphso.cpp; sourceTree = "<group>"; };
+		CED4FDCE19580DC30049A918 /* NewtonRaphso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonRaphso.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				CED4FDB0195805B60049A918 /* Normals.h */,
 				CED4FDB2195806D00049A918 /* Bisection.cpp */,
 				CED4FDB3195806D00049A918 /* Bisection.h */,
+				CED4FDCA19580DA90049A918 /* BSCallTwo.cpp */,
+				CED4FDCB19580DA90049A918 /* BSCallTwo.h */,
+				CED4FDCD19580DC30049A918 /* NewtonRaphso.cpp */,
+				CED4FDCE19580DC30049A918 /* NewtonRaphso.h */,
 				CED4FDA2195804CB0049A918 /* ch9_Solvers_templates_and_implied_volatilities.1 */,
 			);
 			path = ch9_Solvers_templates_and_implied_volatilities;
@@ -138,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED4FDB4195806D00049A918 /* Bisection.cpp in Sources */,
+				CED4FDCC19580DA90049A918 /* BSCallTwo.cpp in Sources */,
 				CED4FDB1195805B60049A918 /* Normals.cpp in Sources */,
 				CED4FDAE195805550049A918 /* BlackScholesFormulas.cpp in Sources */,
 				CED4FDA1195804CB0049A918 /* main.cpp in Sources */,
+				CED4FDCF19580DC30049A918 /* NewtonRaphso.cpp in Sources */,
 				CED4FDAB195804DE0049A918 /* BSCallClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +263,7 @@
 				CED4FDA8195804CB0049A918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>577EE946-24A1-49C1-AFB6-3C5A534FD220</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ch9_Solvers_templates_and_implied_volatilities</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>40E8D5CB-1891-4FF8-BD64-C4D9B5039FB1</key>
+		<string>https://github.com/cheerzzh/CPP-design-pattern-derivatives-pricing</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ch9_Solvers_templates_and_implied_volatilities/ch9_Solvers_templates_and_implied_volatilities.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>40E8D5CB-1891-4FF8-BD64-C4D9B5039FB1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cheerzzh/CPP-design-pattern-derivatives-pricing</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>40E8D5CB-1891-4FF8-BD64-C4D9B5039FB1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>40E8D5CB-1891-4FF8-BD64-C4D9B5039FB1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CPP-design-pattern-derivatives-pricing</string>
+		</dict>
+	</array>
+</dict>
+</plist>

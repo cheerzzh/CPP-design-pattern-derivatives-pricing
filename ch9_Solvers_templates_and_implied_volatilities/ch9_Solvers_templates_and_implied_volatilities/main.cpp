@@ -10,12 +10,15 @@
  BlackScholesFormulas.cpp
  BSCallClass.cpp
  Normals.cpp
+ BSCallTwo.cpp
  */
 
 #include <iostream>
 #include "Bisection.h"
 #include "BSCallClass.h"
 #include "BlackScholesFormulas.h"
+#include "NewtonRaphso.h"
+#include "BSCallTwo.h"
 #include <cmath>
 
 using namespace std;
@@ -54,6 +57,10 @@ int main()
     cout << "\nhigh guess\n";
     cin >> high;
     
+    double start;
+    cout << "\nstart guess\n";
+    cin >> start;
+    
     double tolerance;
     
     cout << "\nTolerance\n";
@@ -68,7 +75,18 @@ int main()
     double PriceTwo =
         BlackScholesCall(Spot,Strike,r,d,vol,Expiry);
     
-    cout << "\n implied vol is:  " << vol << " \n optionprice by implied volatility is: "
+    cout << "\nfor bisection method:\n";
+    cout << "\nimplied vol is:  " << vol << " \noption price by implied volatility is: "
+    << PriceTwo << "\n";
+    
+    BSCallTwo theCall2(r,d,Expiry,Spot,Strike);
+    
+    vol = NewtonRaphson<BSCallTwo, &BSCallTwo::Price, &BSCallTwo::Vega>(Price, start,tolerance, theCall2);
+    
+    PriceTwo =BlackScholesCall(Spot,Strike,r,d,vol,Expiry);
+    
+    cout << "\nfor Newton method:\n";
+    cout << "\nimplied vol is:  " << vol << " \n option price by implied volatility is: "
     << PriceTwo << "\n";
     
     double tmp;

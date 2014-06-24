@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED4FDDD19590D290049A918 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDDC19590D290049A918 /* main.cpp */; };
+		CED4FDDD19590D290049A918 /* PayFactoryMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDDC19590D290049A918 /* PayFactoryMain.cpp */; };
 		CED4FDDF19590D290049A918 /* ch10_factory_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CED4FDDE19590D290049A918 /* ch10_factory_pattern.1 */; };
+		CED4FDE7195914A10049A918 /* PayOffFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDE5195914A10049A918 /* PayOffFactory.cpp */; };
+		CED4FDEA195914B90049A918 /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDE8195914B90049A918 /* PayOff3.cpp */; };
+		CED4FDED1959262D0049A918 /* PayOffConstructible.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDEB1959262D0049A918 /* PayOffConstructible.cpp */; };
+		CED4FDF0195928650049A918 /* PayOffBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4FDEE195928650049A918 /* PayOffBridge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +30,16 @@
 
 /* Begin PBXFileReference section */
 		CED4FDD919590D290049A918 /* ch10_factory_pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch10_factory_pattern; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED4FDDC19590D290049A918 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CED4FDDC19590D290049A918 /* PayFactoryMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PayFactoryMain.cpp; sourceTree = "<group>"; };
 		CED4FDDE19590D290049A918 /* ch10_factory_pattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ch10_factory_pattern.1; sourceTree = "<group>"; };
+		CED4FDE5195914A10049A918 /* PayOffFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffFactory.cpp; sourceTree = "<group>"; };
+		CED4FDE6195914A10049A918 /* PayOffFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffFactory.h; sourceTree = "<group>"; };
+		CED4FDE8195914B90049A918 /* PayOff3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOff3.cpp; sourceTree = "<group>"; };
+		CED4FDE9195914B90049A918 /* PayOff3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOff3.h; sourceTree = "<group>"; };
+		CED4FDEB1959262D0049A918 /* PayOffConstructible.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffConstructible.cpp; sourceTree = "<group>"; };
+		CED4FDEC1959262D0049A918 /* PayOffConstructible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffConstructible.h; sourceTree = "<group>"; };
+		CED4FDEE195928650049A918 /* PayOffBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffBridge.cpp; sourceTree = "<group>"; };
+		CED4FDEF195928650049A918 /* PayOffBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffBridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,15 @@
 		CED4FDDB19590D290049A918 /* ch10_factory_pattern */ = {
 			isa = PBXGroup;
 			children = (
-				CED4FDDC19590D290049A918 /* main.cpp */,
+				CED4FDDC19590D290049A918 /* PayFactoryMain.cpp */,
+				CED4FDE5195914A10049A918 /* PayOffFactory.cpp */,
+				CED4FDE6195914A10049A918 /* PayOffFactory.h */,
+				CED4FDE8195914B90049A918 /* PayOff3.cpp */,
+				CED4FDE9195914B90049A918 /* PayOff3.h */,
+				CED4FDEB1959262D0049A918 /* PayOffConstructible.cpp */,
+				CED4FDEC1959262D0049A918 /* PayOffConstructible.h */,
+				CED4FDEE195928650049A918 /* PayOffBridge.cpp */,
+				CED4FDEF195928650049A918 /* PayOffBridge.h */,
 				CED4FDDE19590D290049A918 /* ch10_factory_pattern.1 */,
 			);
 			path = ch10_factory_pattern;
@@ -117,7 +137,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED4FDDD19590D290049A918 /* main.cpp in Sources */,
+				CED4FDDD19590D290049A918 /* PayFactoryMain.cpp in Sources */,
+				CED4FDE7195914A10049A918 /* PayOffFactory.cpp in Sources */,
+				CED4FDED1959262D0049A918 /* PayOffConstructible.cpp in Sources */,
+				CED4FDEA195914B90049A918 /* PayOff3.cpp in Sources */,
+				CED4FDF0195928650049A918 /* PayOffBridge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
